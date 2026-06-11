@@ -1,329 +1,243 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>망원 셔츠룸 리얼 팩트체크 단골 리뷰 아카이브 | 망원 셔츠룸 추천</title>
-  <meta name="description" content="망원 셔츠룸의 진짜 실전 체험담과 검증된 후기 데이터 공유 리포트! 바가지 눈탱이를 사전에 예방하고 가성비 힐링을 보장받으세요.">
-  <meta name="keywords" content="망원 셔츠룸 추천, 망원 셔츠룸 후기, 셔츠룸 가격비교, 단골리뷰">
-  <meta name="bpaas-design-system" content="editorial-apple">
-  <meta name="bpaas-design-theme" content="kr-crimson-noir">
-  <link rel="canonical" href="https://t3b06-mw-shirts-rc-2.pages.dev/about.html">
-  <style>
-    
-    :root {
-      --bg-color: #180202;
-      --bg-card: #2d0606;
-      --accent: #ef4444;
-      --text: #e2e8f0;
-      --text-muted: #94a3b8;
-      --font-stack: 'Pretendard', sans-serif;
-      --border: rgba(255, 255, 255, 0.08);
-      --glass-bg: rgba(255, 255, 255, 0.02);
-      --glass-border: rgba(255, 255, 255, 0.05);
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text);
-      font-family: var(--font-stack);
-      line-height: 1.8;
-      letter-spacing: -0.01em;
-      padding: 0 24px;
-      overflow-x: hidden;
-    }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 30px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .brand {
-      font-size: 1.6rem;
-      font-weight: 900;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      text-decoration: none;
-      transition: color 0.3s, transform 0.3s;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .brand:hover {
-      color: var(--accent);
-      transform: translateX(2px);
-    }
-    nav {
-      display: flex;
-      gap: 28px;
-    }
-    nav a {
-      color: var(--text-muted);
-      text-decoration: none;
-      font-size: 1rem;
-      font-weight: 700;
-      transition: color 0.3s;
-      position: relative;
-    }
-    nav a::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: -6px;
-      left: 0;
-      background-color: var(--accent);
-      transition: width 0.3s;
-    }
-    nav a:hover {
-      color: #fff;
-    }
-    nav a:hover::after {
-      width: 100%;
-    }
-    main {
-      padding-bottom: 60px;
-    }
-    .badge {
-      display: inline-block;
-      padding: 6px 14px;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid var(--glass-border);
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 800;
-      color: var(--accent);
-      margin-bottom: 28px;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-    }
-    h1 {
-      font-size: 3.2rem;
-      font-weight: 900;
-      color: #fff;
-      line-height: 1.2;
-      margin-bottom: 36px;
-      letter-spacing: -0.03em;
-      background: linear-gradient(to right, #ffffff 30%, var(--accent) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .hero-container {
-      position: relative;
-      border-radius: 20px;
-      padding: 50px;
-      background: linear-gradient(145deg, var(--bg-card) 0%, rgba(255,255,255,0.01) 100%);
-      border: 1px solid var(--glass-border);
-      margin-bottom: 60px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-      overflow: hidden;
-    }
-    .hero-container::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 60%);
-      pointer-events: none;
-    }
-    .desc-block {
-      font-size: 1.18rem;
-      color: var(--text);
-      margin-bottom: 40px;
-      font-weight: 400;
-      text-align: justify;
-    }
-    .desc-block p {
-      margin-bottom: 24px;
-      text-indent: 4px;
-    }
-    .phone-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 14px;
-      padding: 20px 40px;
-      background: linear-gradient(135deg, var(--accent) 0%, rgba(255,255,255,0.05) 200%);
-      color: #fff;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: 900;
-      font-size: 1.3rem;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-      transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
-      border: 1px solid rgba(255,255,255,0.1);
-    }
-    .phone-badge:hover {
-      transform: translateY(-3px) scale(1.02);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
-      border-color: rgba(255,255,255,0.25);
-    }
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-      gap: 28px;
-      margin-top: 60px;
-    }
-    .card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      padding: 36px;
-      border-radius: 16px;
-      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    }
-    .card:hover {
-      border-color: var(--accent);
-      transform: translateY(-5px);
-      box-shadow: 0 15px 30px rgba(0,0,0,0.25);
-    }
-    .card h3 {
-      font-size: 1.35rem;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 16px;
-    }
-    .card p {
-      font-size: 1rem;
-      color: var(--text-muted);
-      line-height: 1.7;
-    }
-    .review-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-      font-size: 0.9rem;
-      font-weight: 800;
-      border-bottom: 1px dashed var(--border);
-      padding-bottom: 12px;
-    }
-    .review-stars {
-      color: #fbbf24;
-      letter-spacing: 2px;
-    }
-    .review-nick {
-      color: #fff;
-    }
-    .review-date {
-      color: var(--text-muted);
-    }
-    footer {
-      border-top: 1px solid var(--border);
-      padding-top: 50px;
-      margin-top: 100px;
-      text-align: center;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-    }
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 14px;
-      font-weight: 700;
-      transition: color 0.3s;
-    }
-    footer a:hover {
-      color: var(--accent);
-    }
-    .blog-link {
-      display: inline-block;
-      margin-top: 28px;
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 800;
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.3s, transform 0.3s;
-    }
-    .blog-link:hover {
-      border-color: var(--accent);
-      transform: translateX(3px);
-    }
-    @media(max-width: 768px) {
-      body { padding: 0 16px; }
-      .wrapper { padding: 50px 0; }
-      h1 { font-size: 2.2rem; }
-      .hero-container { padding: 28px; }
-      .phone-badge { width: 100%; justify-content: center; font-size: 1.1rem; }
-      header { flex-direction: column; gap: 20px; align-items: flex-start; }
-      nav { width: 100%; justify-content: space-between; }
-    }
-  
-  </style>
-</head>
-<body>
-  <div class="wrapper">
-    <header>
-      <a href="index.html" class="brand">👑 망원 셔츠룸</a>
-      <nav>
-        <a href="index.html">홈</a>
-        <a href="about.html">소개</a>
-        <a href="blog.html">블로그</a>
-      </nav>
-    </header>
-    <main>
-      <div class="badge">REAL UGC FEEDBACK CONSOLE</div>
-      <h1>로컬 팩트체크 리뷰</h1>
-      <div class="hero-container" style="margin-bottom:32px;">
-        <div class="desc-block">
-          <p>로컬 최고의 셔츠룸 트렌드와 투명한 주류 가격을 1대1 비교 분석한 오피셜 정보 아카이브 페이지다 브로. 더 이상 골목길 삐끼들의 가스라이팅 단가 장난질에 지갑 버퍼를 털리지 않도록, 안전하고 검증된 프리미엄 예약 라인만 선별했다. 출발하기 전에 형의 VIP 핫라인 📞 010-6279-0862 로 전화 한 통 날려두는 거 잊지 마라. 매니저 퀄리티도 직접 엄선했다.</p><p>밤의 전설이 된 브로들의 리얼 이용 후기:
-- **독점브로 (28, 크리에이터)**: '친구 생파로 셔츠룸 알아보다가 형 추천 라인으로 갔는데 정찰 요금 깔끔하게 나와서 술자리 뇌정지 없이 존잼으로 룸에서 놈.'
-- **비즈니스맨 (32, 대기업대리)**: '해외 바이어 접대가 있어서 불안했는데 010-6279-0862 로 실장 다이얼 예약 때려두고 갔더니 최고 퀄 서비스 받음.'
-- **망원동단골 (29, 자영업)**: '다른 데서 바가지 거하게 쓰고 룸 기피증 생겼었는데 형 가이드 보고 극복함. 과일 안주 서비스 퀄이 남다름.'</p><p>룸 내부의 고급 공기 순환 위생 시스템과 프라이빗 도어락 안전성까지 직접 체크하고 승인한 리스트이니 믿고 달리면 된다 브로!</p>
-        </div>
-      </div>
-      
-      <h2 style="font-size:1.8rem; font-weight:900; margin: 48px 0 24px 0; color:#fff;">단골 브로들의 실시간 라이브 한줄평</h2>
-      <div class="cards-grid" style="grid-template-columns: 1fr; gap: 20px;">
-        
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">독고다이마포 (2026-05-15)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>실장한테 전화로 견적 미리 조율하고 갔는데 주말인데도 추가 요금 마찰 전혀 없이 투명하게 깔끔히 계산 끝남. 오디오 에코 세팅 개쩜!</p>
-      </div>
-    
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">눈탱이방어벽 (2026-05-20)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>바이어 접대가 급하게 잡혀 걱정했는데 형이 알려준 핫라인 예약 덕분에 퀄리티 높은 안주 대접하고 완전 성공 버프 받았다 브로.</p>
-      </div>
-    
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">가성비킹 (2026-05-24)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>망설이다 010-6279-0862 로 미리 통화하고 단골 예약 넣고 갔는데 무상 과일 안주 서비스 대박 퍼줘서 친구들도 대만족 인정함!</p>
-      </div>
-    
-      </div>
-      
-      <div style="margin-top:48px; text-align:center;">
-        <a href="tel:010-6279-0862" class="phone-badge">📞 단골 예약 다이얼: 010-6279-0862</a>
-      </div>
-    </main>
-    <footer>
-      <p>&copy; 2026 망원 셔츠룸 안심 가이드. All Rights Reserved.</p>
-      <p style="margin-top:12px;">
-        <a href="index.html">홈</a> | 
-        <a href="about.html">소개</a> | 
-        <a href="#">개인정보처리방침</a> | 
-        <a href="#">이용약관</a>
-      </p>
-    </footer>
-  </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>망원 셔츠룸 추천 | 정보 - 가격, 위치, 후기 다 까발림</title>
+    <meta name="description" content="망원 셔츠룸 추천 1위. 가격, 위치, 서비스 후기까지 전부 까발린다. 망원동 셔츠룸 정보는 여기서 끝. 010-6279-0862">
+    <meta name="keywords" content="망원 셔츠룸 정보, 망원 셔츠룸 가격, 망원 셔츠룸 위치, 망원동 셔츠룸, 망원 셔츠룸 추천, 셔츠룸 후기, 홍대 셔츠룸, 마포 셔츠룸">
+    <link rel="canonical" href="https://t3b06-mw-shirts-rc-2.vercel.app/info">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="망원 셔츠룸 추천 | 정보 페이지 - 다 까발림">
+    <meta property="og:description" content="망원 셔츠룸 정보, 가격, 위치, 후기. 거짓말 안 치고 다 알려준다.">
+    <meta property="og:url" content="https://t3b06-mw-shirts-rc-2.vercel.app/info">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="robots" content="index, follow">
+    <style>
+        /* Brutalist Avantgarde System - v2.4 */
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #0a0a0a;
+            color: #f5f5f0;
+            line-height: 1.6;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+        img { max-width: 100%; height: auto; display: block; }
+        a { color: inherit; text-decoration: none; }
+        ul, ol { list-style: none; }
+
+        /* ===== VARIABLES ===== */
+        :root {
+            --brutal-black: #0a0a0a;
+            --brutal-white: #f5f5f0;
+            --brutal-yellow: #f7e05e;
+            --brutal-orange: #ff6b35;
+            --brutal-red: #e63e2e;
+            --brutal-gray: #2a2a2a;
+            --brutal-lightgray: #3d3d3d;
+            --brutal-highlight: #f7e05e;
+            --brutal-muted: #9e9e9e;
+            --brutal-shadow: 0 4px 0 0 var(--brutal-black);
+            --brutal-border: 3px solid var(--brutal-yellow);
+            --font-display: 'Inter', sans-serif;
+            --font-body: 'Noto Sans KR', sans-serif;
+            --container-max: 1200px;
+            --gutter: 1.5rem;
+        }
+
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); font-weight: 900; letter-spacing: -0.02em; text-transform: uppercase; }
+        h1 { font-size: clamp(2.5rem, 8vw, 5rem); line-height: 1; margin-bottom: 1rem; }
+        h2 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; margin-bottom: 0.75rem; }
+        h3 { font-size: clamp(1.3rem, 3vw, 2rem); line-height: 1.2; margin-bottom: 0.5rem; }
+        p { margin-bottom: 1rem; font-size: 1.1rem; }
+        .text-yellow { color: var(--brutal-yellow); }
+        .text-orange { color: var(--brutal-orange); }
+        .text-red { color: var(--brutal-red); }
+        .text-muted { color: var(--brutal-muted); }
+        .text-uppercase { text-transform: uppercase; }
+
+        /* ===== LAYOUT ===== */
+        .container { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--gutter); }
+        .section { padding: 4rem 0; }
+        .section-dark { background: var(--brutal-black); }
+        .section-gray { background: var(--brutal-gray); }
+
+        /* ===== COMPONENTS ===== */
+        /* Header / Nav */
+        .header {
+            position: sticky; top: 0; z-index: 100;
+            background: var(--brutal-black);
+            border-bottom: 2px solid var(--brutal-yellow);
+            padding: 0.8rem 0;
+        }
+        .header .container {
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .logo {
+            font-size: 1.8rem; font-weight: 900; text-transform: uppercase;
+            color: var(--brutal-yellow); letter-spacing: -0.03em;
+        }
+        .logo span { color: var(--brutal-white); }
+
+        /* HAMBURGER MENU */
+        .nav-toggle {
+            display: none; background: none; border: none; cursor: pointer;
+            width: 40px; height: 40px; position: relative;
+            z-index: 200;
+        }
+        .nav-toggle span {
+            display: block; width: 28px; height: 3px; background: var(--brutal-yellow);
+            margin: 6px auto; transition: 0.3s; border-radius: 2px;
+        }
+        .nav-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
+        .nav-toggle.active span:nth-child(2) { opacity: 0; }
+        .nav-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
+
+        .nav-list {
+            display: flex; gap: 2rem; align-items: center;
+        }
+        .nav-list a {
+            font-size: 1rem; font-weight: 600; text-transform: uppercase;
+            letter-spacing: 0.05em; position: relative; padding: 0.3rem 0;
+            border-bottom: 2px solid transparent; transition: 0.2s;
+        }
+        .nav-list a:hover, .nav-list a.active {
+            border-bottom-color: var(--brutal-yellow); color: var(--brutal-yellow);
+        }
+        .nav-list a.cta-link {
+            background: var(--brutal-yellow); color: var(--brutal-black);
+            padding: 0.6rem 1.5rem; border-radius: 0; font-weight: 800;
+            border: 2px solid var(--brutal-yellow); transition: 0.2s;
+        }
+        .nav-list a.cta-link:hover {
+            background: transparent; color: var(--brutal-yellow);
+        }
+
+        @media (max-width: 768px) {
+            .nav-toggle { display: block; }
+            .nav-list {
+                position: fixed; top: 0; right: -100%; width: 75%; max-width: 320px;
+                height: 100vh; background: var(--brutal-gray);
+                flex-direction: column; justify-content: center; gap: 2rem;
+                padding: 2rem; transition: 0.4s ease; border-left: 3px solid var(--brutal-yellow);
+                z-index: 150;
+            }
+            .nav-list.open { right: 0; }
+            .nav-list a { font-size: 1.4rem; }
+            .header .container { position: relative; }
+        }
+
+        /* BUTTONS */
+        .btn {
+            display: inline-block; padding: 1rem 2rem; font-weight: 800;
+            text-transform: uppercase; letter-spacing: 0.08em; border: none;
+            cursor: pointer; transition: 0.2s; font-size: 1.1rem;
+        }
+        .btn-primary {
+            background: var(--brutal-yellow); color: var(--brutal-black);
+            box-shadow: var(--brutal-shadow);
+        }
+        .btn-primary:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 0 var(--brutal-black); }
+        .btn-outline {
+            background: transparent; color: var(--brutal-yellow);
+            border: 3px solid var(--brutal-yellow);
+        }
+        .btn-outline:hover { background: var(--brutal-yellow); color: var(--brutal-black); }
+        .btn-cta {
+            background: var(--brutal-orange); color: var(--brutal-black);
+            font-size: 1.3rem; padding: 1.2rem 2.5rem;
+            box-shadow: 5px 5px 0 0 var(--brutal-black);
+        }
+        .btn-cta:hover { transform: scale(1.03); }
+        .btn-block { width: 100%; text-align: center; }
+
+        /* HERO */
+        .hero {
+            padding: 5rem 0; background: var(--brutal-black);
+            border-bottom: 4px solid var(--brutal-yellow);
+            position: relative; overflow: hidden;
+        }
+        .hero::after {
+            content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px;
+            background: repeating-linear-gradient(90deg, var(--brutal-yellow) 0px, var(--brutal-yellow) 20px, transparent 20px, transparent 40px);
+        }
+        .hero-content { max-width: 800px; }
+        .hero h1 { font-size: clamp(2.8rem, 10vw, 6rem); }
+        .hero .subhead { font-size: 1.3rem; font-weight: 300; margin: 1.5rem 0 2rem; color: var(--brutal-muted); }
+        .hero .badge {
+            display: inline-block; background: var(--brutal-yellow); color: var(--brutal-black);
+            padding: 0.3rem 1rem; font-weight: 800; font-size: 0.9rem; text-transform: uppercase;
+            letter-spacing: 0.1em; margin-bottom: 1rem;
+        }
+
+        /* CARDS */
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 2rem 0; }
+        .card {
+            background: var(--brutal-gray); border: 2px solid var(--brutal-lightgray);
+            padding: 2rem; transition: 0.2s; position: relative;
+        }
+        .card:hover { border-color: var(--brutal-yellow); transform: translate(-4px, -4px); box-shadow: 8px 8px 0 0 var(--brutal-black); }
+        .card-icon { font-size: 3rem; margin-bottom: 1rem; display: block; }
+        .card h3 { font-size: 1.6rem; }
+        .card .price { font-size: 2.5rem; font-weight: 900; color: var(--brutal-yellow); line-height: 1; }
+        .card .price small { font-size: 1rem; font-weight: 400; color: var(--brutal-muted); }
+        .card ul { margin: 1rem 0; padding-left: 1.5rem; list-style: disc; }
+        .card ul li { margin-bottom: 0.5rem; font-size: 1rem; }
+
+        /* INFO BOXES */
+        .info-box {
+            background: var(--brutal-gray); border-left: 6px solid var(--brutal-yellow);
+            padding: 2rem; margin: 2rem 0;
+        }
+        .info-box h3 { color: var(--brutal-yellow); margin-bottom: 1rem; }
+
+        /* FAQ */
+        .faq-list { margin: 2rem 0; }
+        .faq-item { border-bottom: 1px solid var(--brutal-lightgray); padding: 1.5rem 0; }
+        .faq-question { font-weight: 800; font-size: 1.2rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .faq-question::after { content: '+'; font-size: 1.5rem; color: var(--brutal-yellow); transition: 0.3s; }
+        .faq-item.active .faq-question::after { content: '−'; }
+        .faq-answer { margin-top: 1rem; display: none; color: var(--brutal-muted); line-height: 1.7; }
+        .faq-item.active .faq-answer { display: block; }
+
+        /* TABLE */
+        .info-table { width: 100%; border-collapse: collapse; margin: 2rem 0; }
+        .info-table th, .info-table td { border: 1px solid var(--brutal-lightgray); padding: 1rem; text-align: left; }
+        .info-table th { background: var(--brutal-gray); font-weight: 800; text-transform: uppercase; color: var(--brutal-yellow); }
+
+        /* DIVIDER */
+        .divider { height: 2px; background: var(--brutal-yellow); margin: 3rem 0; opacity: 0.4; }
+
+        /* FOOTER */
+        .footer {
+            background: var(--brutal-black); border-top: 3px solid var(--brutal-yellow);
+            padding: 3rem 0; text-align: center; color: var(--brutal-muted);
+        }
+        .footer .phone { font-size: 2rem; font-weight: 900; color: var(--brutal-yellow); margin: 1rem 0; }
+        .footer .phone a { color: var(--brutal-yellow); }
+        .footer small { display: block; margin-top: 2rem; font-size: 0.8rem; }
+
+        /* UTILITY */
+        .text-center { text-align: center; }
+        .mt-2 { margin-top: 2rem; }
+        .mb-2 { margin-bottom: 2rem; }
+        .mb-4 { margin-bottom: 4rem; }
+        .gap-2 { gap: 2rem; }
+        .flex { display: flex; }
+        .flex-center { align-items: center; justify-content: center; }
+        .flex-between { justify-content: space-between; }
+        .flex-wrap { flex-wrap: wrap; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+        @media (max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } }
+
+        /* HIGHLIGHT TAG */
+        .tag { display: inline-block; background: var
 </body>
 </html>
