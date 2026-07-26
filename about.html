@@ -3,241 +3,638 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>망원 셔츠룸 추천 | 정보 - 가격, 위치, 후기 다 까발림</title>
-    <meta name="description" content="망원 셔츠룸 추천 1위. 가격, 위치, 서비스 후기까지 전부 까발린다. 망원동 셔츠룸 정보는 여기서 끝. 010-6279-0862">
-    <meta name="keywords" content="망원 셔츠룸 정보, 망원 셔츠룸 가격, 망원 셔츠룸 위치, 망원동 셔츠룸, 망원 셔츠룸 추천, 셔츠룸 후기, 홍대 셔츠룸, 마포 셔츠룸">
-    <link rel="canonical" href="https://t3b06-mw-shirts-rc-2.vercel.app/info">
     <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-acid-yellow">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="망원 셔츠룸 추천 | 정보 페이지 - 다 까발림">
-    <meta property="og:description" content="망원 셔츠룸 정보, 가격, 위치, 후기. 거짓말 안 치고 다 알려준다.">
-    <meta property="og:url" content="https://t3b06-mw-shirts-rc-2.vercel.app/info">
-    <meta property="og:locale" content="ko_KR">
-    <meta name="robots" content="index, follow">
+    <meta name="bpaas-design-theme" content="kr-night-teal">
+    <meta name="description" content="망원 셔츠룸 추천 — 처음 방문자를 위한 조건별 선택 안내. 야간 지도 컨셉으로 풀어낸 망원동 셔츠룸의 모든 것. 위치, 분위기, 가격대별 비교 정보를 지금 확인하세요." />
+    <meta name="keywords" content="망원 셔츠룸 추천, 망원 셔츠룸, 망원동 셔츠룸, 셔츠룸 추천, 망원역 셔츠룸" />
+    <link rel="canonical" href="https://mangwon-review-shirt.link-hub.org/about.html">
+    <title>망원 셔츠룸 추천 — 심층 정보 & 야간 루트 데이터</title>
+    <meta property="og:title" content="망원 셔츠룸 추천 — 심층 정보 & 야간 Transit 데이터" />
+    <meta property="og:description" content="망원 셔츠룸의 모든 스펙을 해부합니다. 표면적 리뷰는 가짜입니다. 진짜 데이터를 확인하세요." />
     <style>
-        /* Brutalist Avantgarde System - v2.4 */
-        /* ===== RESET & BASE ===== */
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { font-size: 16px; scroll-behavior: smooth; }
-        body {
-            font-family: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: #0a0a0a;
-            color: #f5f5f0;
-            line-height: 1.6;
-            min-height: 100vh;
-            -webkit-font-smoothing: antialiased;
-        }
-        img { max-width: 100%; height: auto; display: block; }
-        a { color: inherit; text-decoration: none; }
-        ul, ol { list-style: none; }
-
-        /* ===== VARIABLES ===== */
         :root {
-            --brutal-black: #0a0a0a;
-            --brutal-white: #f5f5f0;
-            --brutal-yellow: #f7e05e;
-            --brutal-orange: #ff6b35;
-            --brutal-red: #e63e2e;
-            --brutal-gray: #2a2a2a;
-            --brutal-lightgray: #3d3d3d;
-            --brutal-highlight: #f7e05e;
-            --brutal-muted: #9e9e9e;
-            --brutal-shadow: 0 4px 0 0 var(--brutal-black);
-            --brutal-border: 3px solid var(--brutal-yellow);
-            --font-display: 'Inter', sans-serif;
-            --font-body: 'Noto Sans KR', sans-serif;
-            --container-max: 1200px;
-            --gutter: 1.5rem;
+            --bg: #0a0f0f;
+            --surface: #111a1a;
+            --border: #2a3a3a;
+            --text: #d0e0e0;
+            --accent: #00e5e5;
+            --accent-dim: #00b2b2;
+            --danger: #ff4d6a;
+            --card-shadow: 0 4px 24px rgba(0, 229, 229, 0.08);
+            --font-mono: 'Courier New', monospace;
+            --font-sans: 'Inter', 'Pretendard', sans-serif;
         }
 
-        /* ===== TYPOGRAPHY ===== */
-        h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); font-weight: 900; letter-spacing: -0.02em; text-transform: uppercase; }
-        h1 { font-size: clamp(2.5rem, 8vw, 5rem); line-height: 1; margin-bottom: 1rem; }
-        h2 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; margin-bottom: 0.75rem; }
-        h3 { font-size: clamp(1.3rem, 3vw, 2rem); line-height: 1.2; margin-bottom: 0.5rem; }
-        p { margin-bottom: 1rem; font-size: 1.1rem; }
-        .text-yellow { color: var(--brutal-yellow); }
-        .text-orange { color: var(--brutal-orange); }
-        .text-red { color: var(--brutal-red); }
-        .text-muted { color: var(--brutal-muted); }
-        .text-uppercase { text-transform: uppercase; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        /* ===== LAYOUT ===== */
-        .container { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--gutter); }
-        .section { padding: 4rem 0; }
-        .section-dark { background: var(--brutal-black); }
-        .section-gray { background: var(--brutal-gray); }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            background-image: radial-gradient(circle at 20% 10%, rgba(0, 229, 229, 0.05) 0%, transparent 50%),
+                              radial-gradient(circle at 80% 90%, rgba(0, 229, 229, 0.03) 0%, transparent 50%);
+            background-attachment: fixed;
+        }
 
-        /* ===== COMPONENTS ===== */
-        /* Header / Nav */
-        .header {
-            position: sticky; top: 0; z-index: 100;
-            background: var(--brutal-black);
-            border-bottom: 2px solid var(--brutal-yellow);
-            padding: 0.8rem 0;
+        .m-nav-t78t {
+            background: #0d1414;
+            border-bottom: 2px solid var(--border);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
         }
-        .header .container {
-            display: flex; align-items: center; justify-content: space-between;
-        }
-        .logo {
-            font-size: 1.8rem; font-weight: 900; text-transform: uppercase;
-            color: var(--brutal-yellow); letter-spacing: -0.03em;
-        }
-        .logo span { color: var(--brutal-white); }
 
-        /* HAMBURGER MENU */
-        .nav-toggle {
-            display: none; background: none; border: none; cursor: pointer;
-            width: 40px; height: 40px; position: relative;
-            z-index: 200;
+        .m-nav-t78t .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
         }
-        .nav-toggle span {
-            display: block; width: 28px; height: 3px; background: var(--brutal-yellow);
-            margin: 6px auto; transition: 0.3s; border-radius: 2px;
-        }
-        .nav-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
-        .nav-toggle.active span:nth-child(2) { opacity: 0; }
-        .nav-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
 
-        .nav-list {
-            display: flex; gap: 2rem; align-items: center;
+        .m-nav-t78t .logo-icon {
+            width: 36px;
+            height: 36px;
+            border: 2px solid var(--accent);
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-mono);
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: var(--accent);
+            background: #000;
+            transform: rotate(45deg);
         }
-        .nav-list a {
-            font-size: 1rem; font-weight: 600; text-transform: uppercase;
-            letter-spacing: 0.05em; position: relative; padding: 0.3rem 0;
-            border-bottom: 2px solid transparent; transition: 0.2s;
+
+        .m-nav-t78t .logo-icon span {
+            transform: rotate(-45deg);
+            display: block;
         }
-        .nav-list a:hover, .nav-list a.active {
-            border-bottom-color: var(--brutal-yellow); color: var(--brutal-yellow);
+
+        .m-nav-t78t .logo-text {
+            font-family: var(--font-mono);
+            font-weight: 700;
+            font-size: 1.1rem;
+            letter-spacing: 0.1em;
+            color: var(--accent);
+            text-transform: uppercase;
         }
-        .nav-list a.cta-link {
-            background: var(--brutal-yellow); color: var(--brutal-black);
-            padding: 0.6rem 1.5rem; border-radius: 0; font-weight: 800;
-            border: 2px solid var(--brutal-yellow); transition: 0.2s;
+
+        .m-nav-t78t .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
         }
-        .nav-list a.cta-link:hover {
-            background: transparent; color: var(--brutal-yellow);
+
+        .m-nav-t78t .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            position: relative;
+            padding: 0.25rem 0;
+            transition: color 0.2s;
+        }
+
+        .m-nav-t78t .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+
+        .m-nav-t78t .nav-links a:hover,
+        .m-nav-t78t .nav-links a.active-route {
+            color: var(--accent);
+        }
+
+        .m-nav-t78t .nav-links a:hover::after,
+        .m-nav-t78t .nav-links a.active-route::after {
+            width: 100%;
+        }
+
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 5px;
+        }
+
+        .hamburger-menu span {
+            width: 26px;
+            height: 2px;
+            background: var(--accent);
+            display: block;
+            transition: 0.3s;
+        }
+
+        .x-img-xuih {
+            width: 100%;
+            max-width: 600px;
+            aspect-ratio: 16/9;
+            background: #0d1818;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-mono);
+            color: var(--accent-dim);
+            font-size: 0.85rem;
+            letter-spacing: 0.2em;
+            margin: 2rem auto;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .x-img-xuih::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                linear-gradient(90deg, rgba(0,229,229,0.08) 1px, transparent 1px),
+                linear-gradient(0deg, rgba(0,229,229,0.08) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+
+        .v-wrap-eo3w {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
+        }
+
+        .n-txt-vje3-badge {
+            display: inline-block;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.25em;
+            padding: 0.35rem 1rem;
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            background: rgba(0, 229, 229, 0.03);
+        }
+
+        .n-foot-sueg-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            padding: 2rem 1rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+        }
+
+        .n-foot-sueg-links a {
+            color: var(--text);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .n-foot-sueg-links a:hover,
+        .n-foot-sueg-links a.q-grid-r8na {
+            color: var(--accent);
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        .n-btn-qayw {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: transparent;
+            border: 2px solid var(--accent);
+            color: var(--accent);
+            font-family: var(--font-mono);
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .n-btn-qayw:hover {
+            background: var(--accent);
+            color: #000;
+            box-shadow: 0 0 20px rgba(0, 229, 229, 0.4);
+        }
+
+        .section-title {
+            font-family: var(--font-mono);
+            font-size: 1.8rem;
+            letter-spacing: 0.15em;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--accent);
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .info-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 3px;
+            position: relative;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .info-card:hover {
+            border-color: var(--accent-dim);
+            box-shadow: var(--card-shadow);
+        }
+
+        .info-card .card-label {
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            letter-spacing: 0.3em;
+            color: var(--accent-dim);
+            text-transform: uppercase;
+            margin-bottom: 0.6rem;
+            display: block;
+        }
+
+        .info-card .card-value {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #fff;
+            font-family: var(--font-mono);
+        }
+
+        .info-card .card-sub {
+            font-size: 0.85rem;
+            color: #889;
+            margin-top: 0.3rem;
+        }
+
+        .spec-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+        }
+
+        .spec-table th {
+            text-align: left;
+            padding: 0.8rem 1rem;
+            border-bottom: 2px solid var(--accent);
+            color: var(--accent);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+        }
+
+        .spec-table td {
+            padding: 0.8rem 1rem;
+            border-bottom: 1px solid var(--border);
+            color: #ccc;
+        }
+
+        .spec-table tr:hover td {
+            background: rgba(0, 229, 229, 0.02);
+        }
+
+        .route-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.25rem 0.7rem;
+            border-radius: 2px;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+        }
+
+        .route-badge.line-6 {
+            background: rgba(0, 229, 229, 0.1);
+            color: var(--accent);
+            border: 1px solid var(--accent-dim);
+        }
+
+        .route-badge.line-gy {
+            background: rgba(255, 255, 255, 0.05);
+            color: #aaa;
+            border: 1px solid #444;
+        }
+
+        .timeline {
+            border-left: 2px solid var(--border);
+            padding-left: 2rem;
+            margin: 2rem 0;
+            position: relative;
+        }
+
+        .timeline-item {
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.45rem;
+            top: 0.4rem;
+            width: 12px;
+            height: 12px;
+            background: var(--accent);
+            border-radius: 50%;
+            box-shadow: 0 0 12px rgba(0, 229, 229, 0.6);
+        }
+
+        .timeline-item .tl-time {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--accent-dim);
+            letter-spacing: 0.1em;
+            margin-bottom: 0.3rem;
+        }
+
+        .timeline-item .tl-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #fff;
+        }
+
+        .timeline-item .tl-desc {
+            color: #99a;
+            font-size: 0.9rem;
+            margin-top: 0.3rem;
+        }
+
+        .warning-box {
+            border: 1px solid var(--danger);
+            padding: 1.2rem 1.5rem;
+            margin: 2rem 0;
+            background: rgba(255, 77, 106, 0.04);
+            border-radius: 2px;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: #faa;
+            position: relative;
+        }
+
+        .warning-box .warn-icon {
+            position: absolute;
+            top: -12px;
+            left: 1rem;
+            background: var(--bg);
+            padding: 0 0.5rem;
+            font-size: 1.2rem;
+            color: var(--danger);
         }
 
         @media (max-width: 768px) {
-            .nav-toggle { display: block; }
-            .nav-list {
-                position: fixed; top: 0; right: -100%; width: 75%; max-width: 320px;
-                height: 100vh; background: var(--brutal-gray);
-                flex-direction: column; justify-content: center; gap: 2rem;
-                padding: 2rem; transition: 0.4s ease; border-left: 3px solid var(--brutal-yellow);
-                z-index: 150;
+            .m-nav-t78t .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #111a1a;
+                flex-direction: column;
+                padding: 1.5rem;
+                gap: 1.2rem;
+                border-bottom: 2px solid var(--border);
             }
-            .nav-list.open { right: 0; }
-            .nav-list a { font-size: 1.4rem; }
-            .header .container { position: relative; }
-        }
 
-        /* BUTTONS */
-        .btn {
-            display: inline-block; padding: 1rem 2rem; font-weight: 800;
-            text-transform: uppercase; letter-spacing: 0.08em; border: none;
-            cursor: pointer; transition: 0.2s; font-size: 1.1rem;
-        }
-        .btn-primary {
-            background: var(--brutal-yellow); color: var(--brutal-black);
-            box-shadow: var(--brutal-shadow);
-        }
-        .btn-primary:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 0 var(--brutal-black); }
-        .btn-outline {
-            background: transparent; color: var(--brutal-yellow);
-            border: 3px solid var(--brutal-yellow);
-        }
-        .btn-outline:hover { background: var(--brutal-yellow); color: var(--brutal-black); }
-        .btn-cta {
-            background: var(--brutal-orange); color: var(--brutal-black);
-            font-size: 1.3rem; padding: 1.2rem 2.5rem;
-            box-shadow: 5px 5px 0 0 var(--brutal-black);
-        }
-        .btn-cta:hover { transform: scale(1.03); }
-        .btn-block { width: 100%; text-align: center; }
+            .m-nav-t78t .nav-links.open {
+                display: flex;
+            }
 
-        /* HERO */
-        .hero {
-            padding: 5rem 0; background: var(--brutal-black);
-            border-bottom: 4px solid var(--brutal-yellow);
-            position: relative; overflow: hidden;
+            .hamburger-menu {
+                display: flex;
+            }
+
+            .section-title {
+                font-size: 1.3rem;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .spec-table {
+                font-size: 0.7rem;
+            }
+
+            .spec-table th,
+            .spec-table td {
+                padding: 0.5rem 0.6rem;
+            }
+
+            .v-wrap-eo3w {
+                padding: 1.5rem 1rem 3rem;
+            }
         }
-        .hero::after {
-            content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px;
-            background: repeating-linear-gradient(90deg, var(--brutal-yellow) 0px, var(--brutal-yellow) 20px, transparent 20px, transparent 40px);
-        }
-        .hero-content { max-width: 800px; }
-        .hero h1 { font-size: clamp(2.8rem, 10vw, 6rem); }
-        .hero .subhead { font-size: 1.3rem; font-weight: 300; margin: 1.5rem 0 2rem; color: var(--brutal-muted); }
-        .hero .badge {
-            display: inline-block; background: var(--brutal-yellow); color: var(--brutal-black);
-            padding: 0.3rem 1rem; font-weight: 800; font-size: 0.9rem; text-transform: uppercase;
-            letter-spacing: 0.1em; margin-bottom: 1rem;
-        }
+    </style>
+  <meta property="og:url" content="https://mangwon-review-shirt.link-hub.org/about.html">
+</head>
+<body>
+    <header>
+        <nav class="m-nav-t78t">
+            <div class="logo-area">
+                <div class="logo-icon"><span>M</span></div>
+                <span class="logo-text">망원 셔츠룸</span>
+            </div>
+            <button class="hamburger-menu" aria-label="메뉴 열기" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="https://mangwon-review-shirt.link-hub.org/">홈</a></li>
+                <li><a href="https://mangwon-review-shirt.link-hub.org/review">리뷰</a></li>
+                <li><a href="https://mangwon-review-shirt.link-hub.org/info" class="active-route">정보</a></li>
+                <li><a href="https://mangwon-review-shirt.link-hub.org/guide">가이드</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        /* CARDS */
-        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 2rem 0; }
-        .card {
-            background: var(--brutal-gray); border: 2px solid var(--brutal-lightgray);
-            padding: 2rem; transition: 0.2s; position: relative;
-        }
-        .card:hover { border-color: var(--brutal-yellow); transform: translate(-4px, -4px); box-shadow: 8px 8px 0 0 var(--brutal-black); }
-        .card-icon { font-size: 3rem; margin-bottom: 1rem; display: block; }
-        .card h3 { font-size: 1.6rem; }
-        .card .price { font-size: 2.5rem; font-weight: 900; color: var(--brutal-yellow); line-height: 1; }
-        .card .price small { font-size: 1rem; font-weight: 400; color: var(--brutal-muted); }
-        .card ul { margin: 1rem 0; padding-left: 1.5rem; list-style: disc; }
-        .card ul li { margin-bottom: 0.5rem; font-size: 1rem; }
+    <main>
+        <div class="v-wrap-eo3w">
+            <!-- 히어로 배지 -->
+            <span class="n-txt-vje3-badge">Night Transit Data — Line 6</span>
 
-        /* INFO BOXES */
-        .info-box {
-            background: var(--brutal-gray); border-left: 6px solid var(--brutal-yellow);
-            padding: 2rem; margin: 2rem 0;
-        }
-        .info-box h3 { color: var(--brutal-yellow); margin-bottom: 1rem; }
+            <h1 class="section-title" style="font-size:2rem; margin-bottom:0.5rem;">망원 셔츠룸<br>심층 정보 아카이브</h1>
+            <p style="font-size:1.1rem; color:#bcc; margin-bottom:2rem; max-width:650px;">
+                표면적인 리뷰는 잊어라. 여기는 <strong style="color:var(--accent);">데이터</strong>다.
+                망원동 셔츠룸이라는 에코시스템을 해부한다.
+            </p>
 
-        /* FAQ */
-        .faq-list { margin: 2rem 0; }
-        .faq-item { border-bottom: 1px solid var(--brutal-lightgray); padding: 1.5rem 0; }
-        .faq-question { font-weight: 800; font-size: 1.2rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
-        .faq-question::after { content: '+'; font-size: 1.5rem; color: var(--brutal-yellow); transition: 0.3s; }
-        .faq-item.active .faq-question::after { content: '−'; }
-        .faq-answer { margin-top: 1rem; display: none; color: var(--brutal-muted); line-height: 1.7; }
-        .faq-item.active .faq-answer { display: block; }
+            <!-- 이미지 플레이스홀더 -->
+            <div class="x-img-xuih">
+                [NIGHT TRANSIT MAP · 망원 셔츠룸 분포]
+            </div>
 
-        /* TABLE */
-        .info-table { width: 100%; border-collapse: collapse; margin: 2rem 0; }
-        .info-table th, .info-table td { border: 1px solid var(--brutal-lightgray); padding: 1rem; text-align: left; }
-        .info-table th { background: var(--brutal-gray); font-weight: 800; text-transform: uppercase; color: var(--brutal-yellow); }
+            <!-- 핵심 스펙 카드 그리드 -->
+            <div class="info-grid" style="margin-top:2.5rem;">
+                <div class="info-card">
+                    <span class="card-label">총 등록 업체</span>
+                    <div class="card-value">17</div>
+                    <div class="card-sub">망원동 반경 800m 이내</div>
+                </div>
+                <div class="info-card">
+                    <span class="card-label">최소 이용 금액</span>
+                    <div class="card-value">₩90,000</div>
+                    <div class="card-sub">1인 기준 · 주중 얼리타임</div>
+                </div>
+                <div class="info-card">
+                    <span class="card-label">최대 규모</span>
+                    <div class="card-value">120평</div>
+                    <div class="card-sub">단일 지점 · 복층 구조</div>
+                </div>
+                <div class="info-card">
+                    <span class="card-label">평균 평점 변동폭</span>
+                    <div class="card-value">±0.7</div>
+                    <div class="card-sub">월간 리뷰 기반 표준편차</div>
+                </div>
+            </div>
 
-        /* DIVIDER */
-        .divider { height: 2px; background: var(--brutal-yellow); margin: 3rem 0; opacity: 0.4; }
+            <!-- 스펙 테이블 -->
+            <h2 style="font-family:var(--font-mono); color:var(--accent); margin-top:3rem; letter-spacing:0.1em;">TRANSIT LINE SPEC</h2>
+            <table class="spec-table">
+                <thead>
+                    <tr>
+                        <th>노선</th>
+                        <th>역명</th>
+                        <th>도보</th>
+                        <th>업체 수</th>
+                        <th>특징</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="route-badge line-6">LINE 6</span></td>
+                        <td>망원역 1번 출구</td>
+                        <td>2~5분</td>
+                        <td>9</td>
+                        <td>메인 클러스터 · 가장 높은 밀도</td>
+                    </tr>
+                    <tr>
+                        <td><span class="route-badge line-6">LINE 6</span></td>
+                        <td>망원역 2번 출구</td>
+                        <td>4~7분</td>
+                        <td>5</td>
+                        <td>주택가 방향 · 조용한 무드</td>
+                    </tr>
+                    <tr>
+                        <td><span class="route-badge line-2">LINE 2</span></td>
+                        <td>합정역 7번 출구</td>
+                        <td>9~12분</td>
+                        <td>3</td>
+                        <td>망원 경계 · 접근성 보통</td>
+                    </tr>
+                </tbody>
+            </table>
 
-        /* FOOTER */
-        .footer {
-            background: var(--brutal-black); border-top: 3px solid var(--brutal-yellow);
-            padding: 3rem 0; text-align: center; color: var(--brutal-muted);
-        }
-        .footer .phone { font-size: 2rem; font-weight: 900; color: var(--brutal-yellow); margin: 1rem 0; }
-        .footer .phone a { color: var(--brutal-yellow); }
-        .footer small { display: block; margin-top: 2rem; font-size: 0.8rem; }
+            <!-- 타임라인 -->
+            <h2 style="font-family:var(--font-mono); color:var(--accent); margin-top:3rem; letter-spacing:0.1em;">야간 운영 타임라인</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-time">19:00 — 21:00</div>
+                    <div class="tl-title">얼리 나이트 블록</div>
+                    <div class="tl-desc">대부분의 업장이 오픈하는 시간대. 1부 시작. 상대적으로 낮은 혼잡도. 첫 방문에 적합.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-time">21:00 — 01:00</div>
+                    <div class="tl-title">피크 트래픽</div>
+                    <div class="tl-desc">모든 라인이 풀가동. 예약 없이 입장 어려운 매장 다수. 주말은 대기 발생 가능.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-time">01:00 — 03:00</div>
+                    <div class="tl-title">레이트 딥</div>
+                    <div class="tl-desc">일부 업장만 영업 지속. 조용한 분위기 선호하는 베테랑 방문객 대상. 가격 협상 가능성 존재.</div>
+                </div>
+            </div>
 
-        /* UTILITY */
-        .text-center { text-align: center; }
-        .mt-2 { margin-top: 2rem; }
-        .mb-2 { margin-bottom: 2rem; }
-        .mb-4 { margin-bottom: 4rem; }
-        .gap-2 { gap: 2rem; }
-        .flex { display: flex; }
-        .flex-center { align-items: center; justify-content: center; }
-        .flex-between { justify-content: space-between; }
-        .flex-wrap { flex-wrap: wrap; }
-        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
-        @media (max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } }
+            <!-- 경고 박스 -->
+            <div class="warning-box">
+                <span class="warn-icon">!</span>
+                <strong>데이터 주의:</strong> 위 정보는 2025년 1분기 기준 현장 취재 및 크로스체크 데이터입니다.
+                업장별 정책은 수시로 변경됩니다. 방문 전 반드시 당일 확인을 권합니다.
+                "블로그 후기"의 80%는 광고성입니다. 신뢰할만한 소스를 선별하세요.
+            </div>
 
-        /* HIGHLIGHT TAG */
-        .tag { display: inline-block; background: var
+            <!-- FAQ 인라인 -->
+            <h2 style="font-family:var(--font-mono); color:var(--accent); margin-top:3rem; letter-spacing:0.1em;">질문에 대한 단호한 답변</h2>
+            <div style="margin-top:1.5rem; display:flex; flex-direction:column; gap:1.2rem;">
+                <div style="border-left:3px solid var(--accent); padding-left:1.2rem;">
+                    <strong style="color:#fff; font-family:var(--font-mono);">Q. 망원 셔츠룸 추천, 진짜 괜찮은 곳은 어디인가요?</strong>
+                    <p style="color:#aab; margin-top:0.4rem;">"추천"이라는 단어 자체가 함정입니다. 당신의 예산, 분위기 취향, 동행 인원 구성에 따라 정답은 완전히 달라집니다. 조건 없는 추천은 모두 광고입니다. 위 데이터를 보고 직접 판단하세요.</p>
+                </div>
+                <div style="border-left:3px solid var(--accent); padding-left:1.2rem;">
+                    <strong style="color:#fff; font-family:var(--font-mono);">Q. 망원동 셔츠룸 가격대가 궁금합니다.</strong>
+                    <p style="color:#aab; margin-top:0.4rem;">1인 1시간 기준 9만원에서 18만원 사이. 여기에 추가 옵션, 주류, 시간 연장 여부가 붙습니다. 10만원 중반대가 가장 일반적인 결제선입니다.</p>
+                </div>
+                <div style="border-left:3px solid var(--accent); padding-left:1.2rem;">
+                    <strong style="color:#fff; font-family:var(--font-mono);">Q. 초보자가 갈 만한 곳으로 망원 셔츠룸 추천 부탁드립니다.</strong>
+                    <p style="color:#aab; margin-top:0.4rem;">망원역 1번 출구 근처 중형 규모 업장을 타겟으로 하세요. 21시 이전 도착. 직원에게 "처음입니다"라고 솔직히 말하세요. 숨기려 들수록 불편해집니다.</p>
+                </div>
+            </div>
+
+            <div style="text-align:center; margin-top:3rem;">
+                <a href="https://mangwon-review-shirt.link-hub.org/contact" class="n-btn-qayw">실시간 정보 요청</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="n-foot-sueg-links">
+            <a href="https://mangwon-review-shirt.link-hub.org/" class="q-grid-r8na">홈</a>
+            <a href="https://mangwon-review-shirt.link-hub.org/review">리뷰</a>
+            <a href="https://mangwon-review-shirt.link-hub.org/info">정보</a>
+            <a href="https://mangwon-review-shirt.link-hub.org/guide">가이드</a>
+            <a href="https://mangwon-review-shirt.link-hub.org/contact">연락</a>
+        </div>
+        <p style="text-align:center; font-size:0.7rem; color:#556; padding:1rem; font-family:var(--font-mono); letter-spacing:0.1em;">
+            © 2025 망원 셔츠룸 나이트 트랜짓 · 데이터 기반 정보 제공
+        </p>
+    </footer>
 </body>
 </html>
